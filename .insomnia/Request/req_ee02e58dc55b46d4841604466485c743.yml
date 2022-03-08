@@ -1,0 +1,51 @@
+_id: req_ee02e58dc55b46d4841604466485c743
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646704796918
+created: 1646487947479
+url: "{{ _.baseURL }}produtos/1"
+name: Update
+description: |+
+  # Rota Update de produtos
+  ### Descrição
+  Altera um produto existe
+
+  ### body json (todos os campos não são requeridos)
+    {
+    
+      "nome": "produto",
+      "preco":12.99,
+      "categoria":(id da categoria)
+    }
+    
+  ### Paramentos
+
+  - produtos/{id} (id do produto)
+
+
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+    "nome": "produto2"
+    }
+parameters: []
+headers:
+  - id: pair_6604b40af19d4333b119c5df8385d176
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_a23422e23a874dacb46c00d2bdce2ef5
+authentication: {}
+metaSortKey: -1646487947479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

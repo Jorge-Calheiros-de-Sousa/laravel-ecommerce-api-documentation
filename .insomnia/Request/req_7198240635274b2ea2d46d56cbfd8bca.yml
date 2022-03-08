@@ -1,0 +1,38 @@
+_id: req_7198240635274b2ea2d46d56cbfd8bca
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646704685988
+created: 1646487979656
+url: "{{ _.baseURL }}produtos/1"
+name: Delete
+description: >+
+  # Rota Delete de produtos
+
+  ### Descrição
+
+  Basicamente essa rota deleta um produto, mas tecnicamente o laravel usando o softdelete faz com que o produto deletetado receba o atributo deleted_at com o valor diferente de null, fazendo com que todas as querys busquem por produtos que o campo delete seja `null` assim escondendo os produtos "deletados"
+
+
+  ### Paramentos
+
+
+  - produtos/{id} (id do produto)
+
+
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_abad14ebffca4323bea77333342fbfa6
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646487979656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

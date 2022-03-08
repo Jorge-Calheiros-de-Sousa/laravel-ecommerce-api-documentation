@@ -1,0 +1,33 @@
+_id: req_6ccd997783a746c487bb4849e0f1fd2e
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646704291608
+created: 1646481172118
+url: "{{ _.baseURL }}produtos"
+name: index
+description: |-
+  # Rota index de produtos
+  ### Descrição
+  Pega todos os produtos do banco de dados que não estao excluidos
+
+  ### Paramentros
+  - categoria (busca produto por categoria)
+  - s (busca produto pelo o nome ou algo parecido com o nome)
+  - page (muda a pagina para visualizar mais produtos)
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_54c178c96024495ba162d6ba691309c7
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646481172118
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

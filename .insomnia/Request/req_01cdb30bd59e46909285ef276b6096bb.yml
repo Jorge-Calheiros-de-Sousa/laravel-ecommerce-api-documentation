@@ -1,0 +1,32 @@
+_id: req_01cdb30bd59e46909285ef276b6096bb
+type: Request
+parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
+modified: 1646704829335
+created: 1646486888113
+url: "{{ _.baseURL }}categorias/forceDelete/1"
+name: forceDelete
+description: |-
+  # Rota forceDelete das categorias
+  ### Descrição
+  força a categoria ser excluida de vez
+
+  ### Paramentos
+
+  - categorias/restore/{id} (id da categoria)
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_aa21ec342990490f88c63b110ee2b049
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646486888113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

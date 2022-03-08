@@ -1,0 +1,33 @@
+_id: req_3ba871fff7c94a45be205f3900e9bca6
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646704734472
+created: 1646488027847
+url: "{{ _.baseURL }}produtos/restore/1"
+name: restore
+description: |+
+  # Rota restore de produtos
+  ### Descrição
+  Restaura um produto excluido
+
+  ### Paramentos
+  - produtos/restore/{id} (id do produto)
+
+
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d7a971c58b6b479d964b106902146ed9
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646488027847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

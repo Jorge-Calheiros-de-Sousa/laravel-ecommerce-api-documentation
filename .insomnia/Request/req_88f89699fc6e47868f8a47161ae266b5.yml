@@ -1,0 +1,36 @@
+_id: req_88f89699fc6e47868f8a47161ae266b5
+type: Request
+parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
+modified: 1646704770641
+created: 1646486168081
+url: "{{ _.baseURL }}categorias/1"
+name: Delete
+description: >-
+  # Rota Delete das categorias
+
+  ### Descrição
+
+  Basicamente essa rota deleta uma categoria, mas tecnicamente o laravel usando o softdelete faz com que a categoria deletetada receba o atributo deleted_at com o valor diferente de null, fazendo com que todas as querys busquem por categorias que o campo delete seja `null` assim escondendo as categorias "deletadas"
+
+
+  ### Paramentos
+
+
+  - categorias/{id} (id da categoria)
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_764f6ff080234dc281139cb157778342
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646486168081
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

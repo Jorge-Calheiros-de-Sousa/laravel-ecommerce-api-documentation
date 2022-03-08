@@ -1,0 +1,32 @@
+_id: req_db3847955bd04ddfb3c9a022a0b776d6
+type: Request
+parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
+modified: 1646704784860
+created: 1646486873929
+url: "{{ _.baseURL }}categorias/restore/1"
+name: Restore
+description: |-
+  # Rota restore das categorias
+  ### Descrição
+  Restaura uma categoria excluida
+
+  ### Paramentos
+
+  - categorias/restore/{id} (id da categoria)
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d3dcac8d5e2a4404b585d0bfd1419f44
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646486873929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_310e94ec271f49f39341dc85f15462e9
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646703199131
+created: 1646487870502
+url: "{{ _.baseURL }}produtos"
+name: Create
+description: |
+  # Rota Create de produtos
+  ### Descrição
+  Cria um produto
+
+  ### body json
+    {
+    
+      "nome": "produto",
+      "preco":12.99,
+      "categoria":(id da categoria)
+      
+    }
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a0f9d77047ed4faebcd3445de34167b5
+  - id: pair_f02b02f3ade649c09cb56308858e98af
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646487870502
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

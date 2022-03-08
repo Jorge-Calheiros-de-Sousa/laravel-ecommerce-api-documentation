@@ -1,0 +1,34 @@
+_id: req_572c7ec9774a4e2ab992115b4b8718a9
+type: Request
+parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
+modified: 1646704844974
+created: 1646488022360
+url: "{{ _.baseURL }}produtos/forceDelete/1"
+name: forceDelete
+description: |+
+  # Rota forceDelete de produtos
+  ### Descrição
+  força o produto ser excluido de vez
+
+    
+  ### Paramentos
+  - produtos/forceDelete/{id} (id do produto)
+
+
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_b47c929f77a644e6ba18772e5caa0343
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646488022360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

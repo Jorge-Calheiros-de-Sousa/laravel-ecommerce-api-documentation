@@ -1,0 +1,46 @@
+_id: req_3006519ea294464cb8cea8cacded8d86
+type: Request
+parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
+modified: 1646704558726
+created: 1646486156305
+url: "{{ _.baseURL }}categorias/1"
+name: Update
+description: |-
+  # Rota Update das categorias
+  ### Descrição
+  Altera uma categoria existente
+
+  ## body json (todos os campos não são requeridos)
+
+  {
+
+  	"slug":"bone",
+  	"nome":"Boné"
+    
+  }
+
+  ### Paramentos
+
+  - categorias/{id} (id da categoria)
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58eabf2721f34f61bd5af43313452046
+  - id: pair_e3b68461a3dc4ff0a5bfdf93f8c092be
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646486156305
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

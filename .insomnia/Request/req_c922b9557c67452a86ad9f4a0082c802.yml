@@ -1,0 +1,42 @@
+_id: req_c922b9557c67452a86ad9f4a0082c802
+type: Request
+parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
+modified: 1646704868231
+created: 1646486015632
+url: "{{ _.baseURL }}categorias"
+name: Create
+description: |-
+  # Rota Create das categorias
+  ### Descrição
+  Cria uma nova categoria
+
+  ## body json
+
+  {
+
+  	"slug":"bone",
+  	"nome":"Boné"
+    
+  }
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"slug":"bone",
+    	"nome":"Boné"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c9458ce1f9374e5382264e901fb88155
+authentication: {}
+metaSortKey: -1646486015632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
