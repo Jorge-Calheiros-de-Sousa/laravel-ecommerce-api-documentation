@@ -1,31 +1,56 @@
 _id: req_310e94ec271f49f39341dc85f15462e9
 type: Request
 parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
-modified: 1646703199131
+modified: 1647442936243
 created: 1646487870502
 url: "{{ _.baseURL }}produtos"
 name: Create
-description: |
+description: |-
   # Rota Create de produtos
   ### Descrição
   Cria um produto
 
-  ### body json
-    {
-    
-      "nome": "produto",
-      "preco":12.99,
-      "categoria":(id da categoria)
-      
-    }
+  ### body Multipart Form
+  {
+
+
+      nome = teste
+      categoria = (id da categoria)
+      preco = 20.99
+      foto = file null
+      descricao = texto null
+
+   }
 method: POST
 body:
-  mimeType: application/json
-  text: ""
+  mimeType: multipart/form-data
+  params:
+    - name: nome
+      value: teste
+      id: pair_0ecb1da05a7f4f0cbe3edeab98c2e73d
+    - id: pair_f59792d2c4094fe082b708e222697356
+      name: categoria
+      value: "1"
+      description: ""
+    - id: pair_5280950c413349308058a7200d01ea0a
+      name: preco
+      value: "20.20"
+      description: ""
+    - id: pair_49266f98c5ab4ec6b06cce570271e02d
+      name: foto
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/jorge/Downloads/exemplo.jpg
+    - id: pair_dc5a8815c580456fb118857da6acbc47
+      name: descricao
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
     id: pair_a0f9d77047ed4faebcd3445de34167b5
   - id: pair_f02b02f3ade649c09cb56308858e98af
     name: Accept

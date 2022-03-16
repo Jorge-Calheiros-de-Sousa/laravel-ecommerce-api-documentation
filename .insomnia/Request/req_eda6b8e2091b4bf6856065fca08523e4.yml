@@ -1,7 +1,7 @@
 _id: req_eda6b8e2091b4bf6856065fca08523e4
 type: Request
 parentId: fld_2aa7c34134ed4ab0aa7c2f449b775fda
-modified: 1646704339131
+modified: 1647039283061
 created: 1646481167631
 url: "{{ _.baseURL }}categorias"
 name: index
