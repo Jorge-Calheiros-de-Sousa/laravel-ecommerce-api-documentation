@@ -1,7 +1,7 @@
 _id: req_310e94ec271f49f39341dc85f15462e9
 type: Request
 parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
-modified: 1647442936243
+modified: 1648180132059
 created: 1646487870502
 url: "{{ _.baseURL }}produtos"
 name: Create
@@ -41,11 +41,10 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: /home/jorge/Downloads/exemplo.jpg
     - id: pair_dc5a8815c580456fb118857da6acbc47
-      name: descricao
-      value: ""
+      name: estoque
+      value: "10"
       description: ""
 parameters: []
 headers:

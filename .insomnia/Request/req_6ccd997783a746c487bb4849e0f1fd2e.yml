@@ -1,9 +1,9 @@
 _id: req_6ccd997783a746c487bb4849e0f1fd2e
 type: Request
 parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
-modified: 1647441851130
+modified: 1647615760510
 created: 1646481172118
-url: "{{ _.baseURL }}produtos?&page=5"
+url: "{{ _.baseURL }}produtos"
 name: index
 description: |-
   # Rota index de produtos

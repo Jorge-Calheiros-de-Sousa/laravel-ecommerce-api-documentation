@@ -1,9 +1,9 @@
 _id: req_ee02e58dc55b46d4841604466485c743
 type: Request
 parentId: fld_08bfbaf0a37c4953b6b530df2b5b0033
-modified: 1647442206583
+modified: 1647889931904
 created: 1646487947479
-url: "{{ _.baseURL }}produtos/1"
+url: "{{ _.baseURL }}produtos/22"
 name: Update
 description: |+
   # Rota Update de produtos
@@ -28,8 +28,10 @@ body:
   mimeType: application/json
   text: |-
     {
-
-    "nome": "produto2"
+        "nome": "teste A",
+        "preco": "20.20",
+        "categoria": 1,
+        "descricao": null
     }
 parameters: []
 headers:
